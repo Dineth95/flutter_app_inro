@@ -1,13 +1,11 @@
 
 import 'package:flutter/material.dart';
-import 'package:intro_app/core/di.dart';
 import 'package:intro_app/ui/intro_screen.dart';
 import 'package:intro_app/ui/intro_screens/provider/page_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  setUpSingletons();
   runApp(const MyApp());
 }
 
